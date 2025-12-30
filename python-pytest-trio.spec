@@ -3,7 +3,7 @@
 
 Name:		python-pytest-trio
 Version:	0.8.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/p/pytest-trio/%{module}-%{version}.tar.gz
 Summary:	Pytest plugin for trio
 URL:		https://pypi.org/project/pytest-trio/
