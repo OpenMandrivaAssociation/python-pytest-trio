@@ -3,7 +3,7 @@
 
 Name:		python-pytest-trio
 Version:	0.8.0
-Release:	3
+Release:	4
 Source0:	https://files.pythonhosted.org/packages/source/p/pytest-trio/%{module}-%{version}.tar.gz
 Summary:	Pytest plugin for trio
 URL:		https://pypi.org/project/pytest-trio/
@@ -13,7 +13,8 @@ BuildSystem:	python
 BuildArch:	noarch
 
 BuildRequires:	python
-BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildRequires:  python%{pyver}dist(trio) >= 0.22.0
 BuildRequires:	python%{pyver}dist(wheel)
 
